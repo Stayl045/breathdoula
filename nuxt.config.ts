@@ -3,7 +3,11 @@ import { defineNuxtConfig } from "nuxt3";
 // https://v3.nuxtjs.org/docs/directory-structure/nuxt.config
 export default defineNuxtConfig({
   css: [],
-  components: ["~/components/header", "~/components/footer"],
+  components: [
+    "~/components/header",
+    "~/components/footer",
+    "~/components/cards",
+  ],
   buildModules: ["@nuxtjs/tailwindcss"],
   modules: [],
 });

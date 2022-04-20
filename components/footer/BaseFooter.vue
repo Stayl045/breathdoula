@@ -11,8 +11,7 @@
       <FooterSocialMedia>
         <a :href="'/'" class="hover:text-red-400 text-3xl">Social</a>
         <a :href="'/'" class="hover:text-red-400">Instagram</a>
-        <a :href="'/'" class="hover:text-red-400">FaceBook</a>
-        <a :href="'/'" class="hover:text-red-400">YouTube</a>
+        <a :href="'/'" class="hover:text-cyan-300">FaceBook</a>
       </FooterSocialMedia>
     </div>
   </section>
