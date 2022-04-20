@@ -8,6 +8,6 @@ export default defineNuxtConfig({
     "~/components/footer",
     "~/components/cards",
   ],
-  buildModules: ["@nuxtjs/tailwindcss"],
+  buildModules: ["@nuxtjs/tailwindcss", "@formkit/nuxt"],
   modules: [],
 });
