@@ -3,7 +3,7 @@
     <header>
       <BaseHeader />
     </header>
-    <div class="grid grid-flow-col rounded-sm m-5">
+    <div class="flex justify-evenly flex-wrap rounded-sm m-5">
       <!-- Beginning of Form -->
       <div class="p-4 max-w-xl">
         <FormKit
@@ -118,9 +118,9 @@
           />
         </FormKit>
       </div>
-      <div class="grid text-center content-center">
+      <div class="pt-20 sm:px-0">
         <img
-          class="w-[100%] max-w-[90vw] h-[100vh] rounded-full px-10"
+          class="w-[100%] h-[100vh] rounded-full px-10"
           src="../../assets/images/connect-page.jpg"
           alt=""
         />

@@ -1,6 +1,6 @@
 <template>
   <section
-    class="grid grid-cols-3 bg-violet-50 opacity-95 mt-7 text-[#54295D] w-full"
+    class="grid grid-cols-3 bg-violet-50 opacity-95 text-[#54295D] w-full"
   >
     <FooterCopyright>
       <footer class="text-3xl tracking-wider">

@@ -42,7 +42,7 @@
       <NuxtLink
         v-for="navLink in navLinks"
         :key="navLink.id"
-        class="block p-2 font-thin text-[#54295D] hover:bg-gray-700 hover:text-white hover:rounded-md px-2 focus:text-gray-600 text-lg sm:mt-0"
+        class="block p-1 font-thin text-[#54295D] hover:bg-violet-400 hover:text-white hover:rounded-md px-2 focus:text-gray-600 text-lg sm:mt-0"
         :to="navLink.path"
         >{{ navLink.name }}</NuxtLink
       >
