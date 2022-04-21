@@ -7,6 +7,7 @@ export default defineNuxtConfig({
     "~/components/header",
     "~/components/footer",
     "~/components/cards",
+    "~/components/carousel",
   ],
   buildModules: ["@nuxtjs/tailwindcss", "@formkit/nuxt"],
   modules: [],

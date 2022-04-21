@@ -1,9 +1,9 @@
 <template>
   <section class="sm:flex sm:justify-between sm:px-3 sm:items-center sm:py-3">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-      <!-- <NuxtLink to="/" class="animate-pulse">
-        <img src="../../assets/images/dev-log-final.svg" alt="logo" />
-      </NuxtLink> -->
+      <NuxtLink to="/" class="">
+        <img src="../../assets/images/doula-logo.svg" alt="logo" />
+      </NuxtLink>
       <div class="sm:hidden">
         <button
           @click="isOpen = !isOpen"
@@ -20,13 +20,13 @@
               fill-rule="evenodd"
               clip-rule="evenodd"
               d="M1.6.2C.2.7-.4 2.5.4 3.7L4.6 8l4 4L4.4 16C.4 20.1.3 20.3.1 21c-.2.6-.1 1.2.2 1.8.4.7 1.3 1.3 2.2 1.3.1 0 .4 0 .7-.2.5-.1 1-.6 4.7-4.3l4.1-4 4.1 4c4.1 4.1 4.2 4.2 4.8 4.3.4.2.7.2 1 .2a2.4 2.4 0 0 0 2-3.2c-.2-.5-.5-.8-4.3-4.7L15.5 12l4-4a54 54 0 0 0 4.2-4.6c.4-.6.4-1.5 0-2-.5-1.2-2-1.7-3.1-1.2l-4.4 4.2-4.2 4s-2-1.7-4.2-4A93.6 93.6 0 0 0 3.4.2C2.9 0 2.2 0 1.6.2Z"
-              fill="#EEE"
+              class="fill-[#54295D]"
             />
 
             <path
               v-if="!isOpen"
-              fill-rule="evenodd"
-              class="fill-white"
+              fill="#54295D"
+              class="fill-[#54295D]"
               d="M3 7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2H3zm0
         7a1 1 0 1 0 0 2h24a1 1 0 1 0 0-2H3zm0 7a1 1 0 1 0 0 2h24a1 1 0 1 0
         0-2H3z"

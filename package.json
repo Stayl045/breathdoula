@@ -9,7 +9,5 @@
     "@nuxtjs/tailwindcss": "^5.0.2",
     "nuxt3": "latest"
   },
-  "dependencies": {
-    "@formkit/vue": "^1.0.0-beta.6"
-  }
+  "dependencies": {}
 }
