@@ -15,8 +15,9 @@
     - Nuxt3
     - Tailwindcss
     - Font Awesome icons
-    - figma
-    - nuxt module
+    - Figma
+    - Nuxt3 Module FormKit
+    - Various YouTube Tutorials
 
 ---
 
