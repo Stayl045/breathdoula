@@ -1,6 +1,6 @@
 # Breath Doula: Final Project
 
-##
+## Thoughts on the Final
 
 - All in all, it was a treat to build this website for my partner! I hope to continue to improve it over the summer by adding intended features
   - I wanted to add a lot more features to the site, however, my limited knowledge of nuxt and vue prevented me from doing so.
