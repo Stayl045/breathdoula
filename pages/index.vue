@@ -39,7 +39,7 @@
           <h1 class="text-violet-400 text-5xl font-extrabold">
             {{ hero.title }}
           </h1>
-          <p class="pt-5 px-28 text-2xl text-violet-400 font-semibold">
+          <p class="pt-5 px-28 text-2xl text-black font-semibold">
             {{ hero.description }}
           </p>
           <CardButton
