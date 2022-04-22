@@ -16,7 +16,7 @@
       v-for="hero in hero"
       :key="hero.id"
       :style="{ 'background-image': `url(${hero.image.backgroundImage})` }"
-      class="h-[100vh] bg-cover grid m-3"
+      class="h-[110vh] bg-cover object-top grid m-3"
     ></section>
     <BaseFooter />
   </section>

@@ -1,29 +1,11 @@
-# Nuxt 3 Minimal Starter
+## Resources
 
-We recommend to look at the [documentation](https://v3.nuxtjs.org).
+    Nuxt3
+    Tailwindcss
+    Font Awesome icons
+    figma
+    nuxt module
 
-## Setup
+## Attributions
 
-Make sure to install the dependencies
-
-```bash
-yarn install
-```
-
-## Development
-
-Start the development server on http://localhost:3000
-
-```bash
-yarn dev
-```
-
-## Production
-
-Build the application for production:
-
-```bash
-yarn build
-```
-
-Checkout the [deployment documentation](https://v3.nuxtjs.org/docs/deployment).
+- Carousel Image [Aliens Dev](https://www.youtube.com/watch?v=6-JEiEfkluc&t=147s)

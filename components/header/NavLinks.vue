@@ -1,7 +1,7 @@
 <template>
   <section class="sm:flex sm:justify-between sm:px-3 sm:items-center sm:py-3">
     <div class="flex items-center justify-between px-4 py-3 sm:p-0">
-      <NuxtLink to="/" class="">
+      <NuxtLink to="/" class="mx-10">
         <img src="../../assets/images/doula-logo.svg" alt="logo" />
       </NuxtLink>
       <div class="sm:hidden">

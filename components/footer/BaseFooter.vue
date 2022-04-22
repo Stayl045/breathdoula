@@ -1,17 +1,17 @@
 <template>
   <section
-    class="grid grid-cols-3 bg-violet-50 opacity-95 text-[#54295D] w-full"
+    class="flex text-center justify-center flex-col bg-violet-50 opacity-95 text-[#54295D] w-full"
   >
     <FooterCopyright>
       <footer class="text-3xl tracking-wider">
-        <p class="footer">&copy; Stephan Taylor & Renae Prince</p>
+        <p class="footer pt-10">&copy;Stephan Taylor & Renae Prince</p>
       </footer>
     </FooterCopyright>
-    <div class="grid col-start-5 pt-6 mb-3 pr-12">
+    <div class="grid text-center content-center pb-10">
       <FooterSocialMedia>
-        <a :href="'/'" class="hover:text-red-400 text-3xl">Social</a>
-        <a :href="'/'" class="hover:text-red-400">Instagram</a>
-        <a :href="'/'" class="hover:text-cyan-300">FaceBook</a>
+        <a :href="'/'" class="hover:text-violet-400 text-3xl">Social</a>
+        <a :href="'/'" class="hover:text-violet-400">Instagram</a>
+        <a :href="'/'" class="hover:text-violet-400">FaceBook</a>
       </FooterSocialMedia>
     </div>
   </section>

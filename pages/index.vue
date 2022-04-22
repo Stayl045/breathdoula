@@ -3,6 +3,7 @@
     <header>
       <BaseHeader />
     </header>
+    <!-- Hero Image Slider -->
     <main class="bg-slate-50">
       <div class="app">
         <carousel @next="next" @prev="prev">
@@ -15,11 +16,9 @@
           >
             <img class="w-[100%] h-[90vh]" :src="slide" />
           </carousel-slide>
-          <carousel-slide></carousel-slide>
-          <carousel-slide></carousel-slide>
         </carousel>
       </div>
-      <!-- Image Slider end -->
+      <!-- Quote -->
       <div
         class="grid text-center content-center px-24 relative h-[83vh] bg-violet-50"
       >
@@ -29,6 +28,7 @@
         </p>
         <p class="pt-6 text-[#54295D]">- d. antoinette foy</p>
       </div>
+      <!-- Doula Packages -->
       <section
         v-for="hero in hero"
         :key="hero.id"
@@ -36,10 +36,10 @@
         class="h-[83vh] bg-cover grid text-center content-center"
       >
         <div class="grid text-center content-center xs:mt-20">
-          <h1 class="text-[#54295D] text-4xl font-extrabold">
+          <h1 class="text-violet-500 text-5xl font-extrabold">
             {{ hero.title }}
           </h1>
-          <p>{{ hero.description }}</p>
+          <p class="pt-5 px-24">{{ hero.description }}</p>
           <CardButton
             ><button
               class="text-[#54295d] p-7 bg-violet-100 rounded-2xl mt-6 font-extrabold hover:bg-violet-300 hover:text-white"
