@@ -3,6 +3,7 @@
     <header>
       <BaseHeader />
     </header>
+    
     <h1 class="flex justify-center py-7 text-6xl text-[#a99db4] text">
       Services
     </h1>
