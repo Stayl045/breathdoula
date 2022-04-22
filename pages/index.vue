@@ -36,10 +36,12 @@
         class="h-[83vh] bg-cover grid text-center content-center"
       >
         <div class="grid text-center content-center xs:mt-20">
-          <h1 class="text-violet-500 text-5xl font-extrabold">
+          <h1 class="text-violet-400 text-5xl font-extrabold">
             {{ hero.title }}
           </h1>
-          <p class="pt-5 px-24">{{ hero.description }}</p>
+          <p class="pt-5 px-28 text-2xl text-violet-400 font-semibold">
+            {{ hero.description }}
+          </p>
           <CardButton
             ><button
               class="text-[#54295d] p-7 bg-violet-100 rounded-2xl mt-6 font-extrabold hover:bg-violet-300 hover:text-white"
@@ -117,5 +119,9 @@
   .app {
     display: flex;
     justify-content: center;
+  }
+
+  h1 {
+    text-shadow: 0 0 2px black;
   }
 </style>

@@ -10,7 +10,7 @@
       :style="{ 'background-image': `url(${hero.image.backgroundImage})` }"
       class="h-[90vh] bg-cover bg-center m-3 grid text-center content-center justify-center pt-56"
     >
-      <h1 class="text-violet-50 text-9xl">
+      <h1 class="text-violet-50 text-8xl">
         {{ hero.title }}
       </h1>
     </section>
@@ -20,7 +20,7 @@
     >
       <div>
         <img
-          class="h-[60vh] rounded-full p-7"
+          class="h-[60vh] md:max-w-[25vw] rounded-full p-7"
           src="~/assets/images/inclusivity-butterflys.jpg"
           alt="butterflys"
         />
